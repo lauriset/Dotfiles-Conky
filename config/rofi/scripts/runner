@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+# Import Current Theme
+DIR="$HOME/.config/rofi"
+STYLE="spark"
+RASI="$DIR/themes/$STYLE/rofi/runner.rasi"
+
+# Run
+rofi \
+    -show run \
+	-theme ${RASI}
+
