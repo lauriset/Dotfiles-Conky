@@ -1,0 +1,105 @@
+!-------------------------------------------------------------------------------
+! Xft settings
+!-------------------------------------------------------------------------------
+
+! Command to check DPI-- xdpyinfo | grep -B2 resolution --
+Xft.dpi:                    96
+Xft.antialias:          true
+Xft.rgba:                  rgb
+Xft.hinting:              true
+Xft.hintstyle:          hintslight
+
+!-------------------------------------------------------------------------------
+! Rofi settings
+! by DaRk_dOg
+!-------------------------------------------------------------------------------
+
+rofi.show-icons:            false
+rofi.modi:                        drun,run,window,ssh
+rofi.lines:                         7
+rofi.line-padding:         0
+rofi.matching:                fuzzy
+rofi.bw:                             0
+rofi.history:                     true
+rofi.padding:                  0
+rofi.separator-style:    none
+rofi.hide-scrollbar:       true
+rofi.line-margin:            0
+rofi.font:                           Iosevka  10
+rofi.theme:                       /home/lauri/.config/rofi/themes/spark/rofi/launcher.rasi
+!-------------------------------------------------------------------------------
+! URxvt settings
+! by DaRk_dOg
+!-------------------------------------------------------------------------------
+
+!URxvt.depth:                 32
+URxvt.geometry:          90x16
+URxvt.transparent:       false
+URxvt.fading:                 0
+URxvt.loginShell:          true
+URxvt.saveLines:          50
+URxvt.internalBorder: 30
+URxvt.lineSpace:           0
+
+! Fonts
+URxvt.allow_bold:           false
+
+URxvt*font:  xft:mplus Nerd Font Mono:size=10
+URxvt*boldFont:  xft:mplus Nerd Font Mono:size=10
+
+
+! Fix font space
+URxvt*letterSpace: -1
+
+! Scrollbar
+URxvt.scrollStyle:          rxvt
+URxvt.scrollBar:             false
+
+! Perl extensions
+URxvt.perl-ext-common:      default,matcher
+URxvt.matcher.button:           1
+URxvt.urlLauncher:                   firefox
+
+! Cursor
+URxvt.cursorBlink:               false
+URxvt.cursorUnderline:      false
+
+! Pointer
+URxvt.pointerBlank:             false
+
+
+*background: #0A101C
+*foreground: #DEE6E7
+*cursorColor: #E7FCFE
+
+!! white dark/light
+*color0: #EF8E6D
+*color8: #EF8E6D
+
+!! red dark/light
+*color1: #5AF7B0
+*color9: #EA5C39
+
+!! green dark/light
+*color2: #0F1C2E
+*color10: #A1B4B7
+
+!! yellow dark/light
+*color3: #EF8E6D
+*color11: #E8E163
+
+!! blue dark/light
+*color4: #7496E2
+*color12: #7496E2
+
+!! magenta dark/light
+*color5: #1F7582
+*color13: #349BAA
+
+!! cyan dark/light
+*color6: #5FDBF4
+*color14: #5FDBF4
+
+!! black dark/light
+*color7: #DEE6E7
+*color15: #DEE6E7
